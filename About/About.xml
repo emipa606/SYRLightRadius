@@ -1,22 +1,96 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>[SYR] Light Radius</name>
-    <author>Syrchalis</author>
-    <supportedVersions>
-        <li>1.0</li>
-        <li>1.1</li>
-        <li>1.2</li>
-        <li>1.3</li>
-    </supportedVersions>
-	<url>https://ludeon.com/forums/index.php?topic=43449</url>
-    <description>Adds dynamic light radi to everything that emits light.</description>
-    <packageId>syrchalis.lightradius</packageId>
-    <modDependencies>
+  <name>[SYR] Light Radius (Continued)</name>
+  <packageId>Mlie.SYRLightRadius</packageId>
+  <author>Syrchalis</author>
+  <url>https://github.com/emipa606/SYRLightRadius</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
     <li>
-        <packageId>brrainz.harmony</packageId>
-        <displayName>Harmony</displayName>
-        <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-        <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
     </li>
-</modDependencies>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Syrchaliss mod https://steamcommunity.com/sharedfiles/filedetails/?id=1520756475
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr][td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/SYRLightRadius][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[h2][b]Adds dynamic light radii to light sources[/b][/h2]
+
+
+[img]https://i.imgur.com/s8csNp7.png[/img]
+
+When selecting lights or when placing lights Light Radius shows an indicator which area will be considered "Lit".
+
+
+
+[img]https://i.imgur.com/eiAAg6q.png[/img]
+
+[b]Settings:[/b]
+Show inner light radius - Shows a radius that roughly matches the area that is "lit", meaning over 30% light.
+Show outer light radius - Shows a radius that roughly matches the area that is being affected by the lamp at all, meaning anything above 0%.
+
+The radii are not perfect, this is because the actual light and the display radius use different calculations, however they match relatively well.
+
+This mod automatically supports basically any mod, because it dynamically generates the display radii. (For Wall Light use the option of that mod if you want to see light radii).
+
+Note: The colorful light overlay is from a different mod - it only shows actual light. This mod here shows a radius when placing lights and when selecting them (even if they are off!).
+
+
+
+[img]https://i.imgur.com/x3y72Eg.png[/img]
+
+[h3][b]Savegames:[/b][/h3]
+[list][*]Adding: Safe
+[*]Removing: Safe
+[/list]
+
+[h3][b]Incompatibilities:[/b][/h3]
+[list][*]Wall Light - use the setting of the mod itself
+[/list]
+
+
+
+[img]https://i.imgur.com/1YxHVGs.png[/img]
+
+[quote][h3][b][url=https://steamcommunity.com/workshop/filedetails/?id=1474000866]Syrchalis' Mods[/url][/b][/h3][/quote]
+Collection of my mods for RimWorld
+
+If you enjoy my mods consider dropping me a dime:
+[url=https://ko-fi.com/A0A0IJ2R][img]https://i.imgur.com/QMURwKz.png[/img][/url][url=https://www.patreon.com/syrchalis][img]https://i.imgur.com/NNM7mbP.png[/img][/url]
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
 </ModMetaData>
