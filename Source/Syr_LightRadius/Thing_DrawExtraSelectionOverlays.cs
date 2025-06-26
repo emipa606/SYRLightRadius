@@ -14,12 +14,12 @@ public class Thing_DrawExtraSelectionOverlays
         }
 
         var compGlower = __instance.TryGetComp<CompGlower>();
-        if (LightRadiusCore.settings.innerLight)
+        if (LightRadiusCore.Settings.InnerLight)
         {
             GenDraw.DrawRadiusRing(__instance.Position, (compGlower.Props.glowRadius * 0.91f) - 2f);
         }
 
-        if (LightRadiusCore.settings.outerLight)
+        if (LightRadiusCore.Settings.OuterLight)
         {
             GenDraw.DrawRadiusRing(__instance.Position, (compGlower.Props.glowRadius * 0.91f) - 0.5f,
                 LightRadiusCore.OuterRingColor);

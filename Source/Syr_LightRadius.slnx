@@ -1,0 +1,6 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="Syr_LightRadius/Syr_LightRadius.csproj" />
+</Solution>

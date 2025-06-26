@@ -4,14 +4,14 @@ namespace Syr_LightRadius;
 
 public class LightRadiusSettings : ModSettings
 {
-    public bool innerLight = true;
+    public bool InnerLight = true;
 
-    public bool outerLight;
+    public bool OuterLight;
 
     public override void ExposeData()
     {
         base.ExposeData();
-        Scribe_Values.Look(ref innerLight, "SyrLightRadius_innerLight", true);
-        Scribe_Values.Look(ref outerLight, "SyrLightRadius_outerLight");
+        Scribe_Values.Look(ref InnerLight, "SyrLightRadius_innerLight", true);
+        Scribe_Values.Look(ref OuterLight, "SyrLightRadius_outerLight");
     }
 }

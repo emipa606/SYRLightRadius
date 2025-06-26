@@ -1,4 +1,4 @@
-# [[SYR] Light Radius (Continued)]()
+# [[SYR] Light Radius (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3345235980)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -57,9 +57,6 @@ Note: The colorful light overlay is from a different mod - it only shows actual 
 [/quote]
 Collection of my mods for RimWorld
 
-If you enjoy my mods consider dropping me a dime:
-[![Image](https://i.imgur.com/QMURwKz.png)[/url][url=https://www.patreon.com/syrchalis]![Image](https://i.imgur.com/NNM7mbP.png)](https://ko-fi.com/A0A0IJ2R)
-
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
@@ -72,4 +69,6 @@ If you enjoy my mods consider dropping me a dime:
 -  If you have the solution for a problem, please post it to the GitHub repository.
 -  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
+[![Image](https://img.shields.io/github/v/release/emipa606/SYRLightRadius?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3345235980) | tags:  display

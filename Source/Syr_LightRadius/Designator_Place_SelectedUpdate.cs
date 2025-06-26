@@ -18,12 +18,12 @@ public class Designator_Place_SelectedUpdate
         }
 
         var compProperties = thingDef.GetCompProperties<CompProperties_Glower>();
-        if (LightRadiusCore.settings.innerLight)
+        if (LightRadiusCore.Settings.InnerLight)
         {
             GenDraw.DrawRadiusRing(UI.MouseCell(), (compProperties.glowRadius * 0.91f) - 2f);
         }
 
-        if (LightRadiusCore.settings.outerLight)
+        if (LightRadiusCore.Settings.OuterLight)
         {
             GenDraw.DrawRadiusRing(UI.MouseCell(), (compProperties.glowRadius * 0.91f) - 0.5f,
                 LightRadiusCore.OuterRingColor);
