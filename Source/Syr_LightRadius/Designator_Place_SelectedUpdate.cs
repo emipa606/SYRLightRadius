@@ -5,7 +5,7 @@ using Verse;
 namespace Syr_LightRadius;
 
 [HarmonyPatch(typeof(Designator_Place), nameof(Designator_Place.SelectedUpdate))]
-public class Designator_Place_SelectedUpdate
+public static class Designator_Place_SelectedUpdate
 {
     public static void Postfix(Designator_Place __instance)
     {

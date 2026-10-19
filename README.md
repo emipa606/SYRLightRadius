@@ -1,24 +1,24 @@
 # [[SYR] Light Radius (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3345235980)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Syrchaliss mod https://steamcommunity.com/sharedfiles/filedetails/?id=1520756475
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 ## **Adds dynamic light radii to light sources**
 
 
 
-![Image](https://i.imgur.com/s8csNp7.png)
+![Image](https://img.litet.net/s8csNp7.png)
 
 When selecting lights or when placing lights Light Radius shows an indicator which area will be considered "Lit".
 
 
 
-![Image](https://i.imgur.com/eiAAg6q.png)
+![Image](https://img.litet.net/eiAAg6q.png)
 
 **Settings:**
 Show inner light radius - Shows a radius that roughly matches the area that is "lit", meaning over 30% light.
@@ -32,7 +32,7 @@ Note: The colorful light overlay is from a different mod - it only shows actual 
 
 
 
-![Image](https://i.imgur.com/x3y72Eg.png)
+![Image](https://img.litet.net/x3y72Eg.png)
 
 ### **Savegames:**
 
@@ -51,19 +51,19 @@ Note: The colorful light overlay is from a different mod - it only shows actual 
 
 
 
-![Image](https://i.imgur.com/1YxHVGs.png)
+![Image](https://img.litet.net/1YxHVGs.png)
 
 [quote]### **[Syrchalis' Mods](https://steamcommunity.com/workshop/filedetails/?id=1474000866)**
 [/quote]
 Collection of my mods for RimWorld
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -71,4 +71,4 @@ Collection of my mods for RimWorld
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/SYRLightRadius?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3345235980) | tags:  display
+[![Image](https://img.shields.io/github/v/release/emipa606/SYRLightRadius?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3345235980) | display

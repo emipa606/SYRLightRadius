@@ -4,7 +4,7 @@ using Verse;
 namespace Syr_LightRadius;
 
 [HarmonyPatch(typeof(Thing), nameof(Thing.DrawExtraSelectionOverlays))]
-public class Thing_DrawExtraSelectionOverlays
+public static class Thing_DrawExtraSelectionOverlays
 {
     public static void Postfix(Thing __instance)
     {
